@@ -1,0 +1,8 @@
+@use './tailwind/colors.scss' as *;
+@use './tailwind/base.scss' as *;
+@use './tailwind/components.scss' as *;
+@use './tailwind/utilities.scss' as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

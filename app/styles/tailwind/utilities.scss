@@ -1,0 +1,26 @@
+@layer utilities {
+  // ------------------------------
+  .vertical-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .vertical-rl {
+    writing-mode: vertical-rl;
+  }
+  .font-feature-jp {
+    font-feature-settings: 'palt' 1, 'jp90';
+  }
+
+  // ------------------------------
+  .br-pc {
+    br {
+      @apply hidden md:inline;
+    }
+  }
+
+  .br-sp {
+    br {
+      @apply inline md:hidden;
+    }
+  }
+}
